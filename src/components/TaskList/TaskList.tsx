@@ -1,31 +1,14 @@
-// // types/index.ts
-// export type TaskStatus = 'pending' | 'in-progress' | 'completed';
- 
-// export interface Task {
-//   id: string;
-//   title: string;
-//   description: string;
-//   status: TaskStatus;
-//   priority: 'low' | 'medium' | 'high';
-//   dueDate: string;
-// }
- 
-// export interface TaskListProps {
-//   tasks: Task[];
-//   onStatusChange: (taskId: string, newStatus: TaskStatus) => void;
-//   onDelete: (taskId: string) => void;
-// }
-import TaskItem from './components/TaskItem/TaskItem.tsx'
 
-function TaskList (
+import {TaskList} from './src/components/TaskItem/TaskItem.tsx'
+import {TaskStatus} from ''
 
-  const TaskList()
+function TaskList(){
+
 
   return(
     <ul>
-      <li>{TaskItem}</li>
+      <li>{TaskList}</li>
     </ul>
   );
-)
-
+}
 export default TaskList

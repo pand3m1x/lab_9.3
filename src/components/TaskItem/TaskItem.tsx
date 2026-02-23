@@ -1,6 +1,10 @@
-// // types/index.ts
-// export interface TaskItemProps {
-//   task: Task;
-//   onStatusChange: (taskId: string, newStatus: TaskStatus) => void;
-//   onDelete: (taskId: string) => void;
-// }
+import TaskItem from './components/TaskItem/TaskItem.tsx'
+
+function TaskItem(){
+
+  return(
+
+  )
+}
+
+export default TaskItem
